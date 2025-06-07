@@ -20,9 +20,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7622719653:AAGVD1x0RqQEHSUxYHgobJXetuEGD72
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7066092576').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/AkashBlackheart") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002868273209'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002871588654'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+RsxwlG-A_0IwMmE9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002803411945').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002743167737').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tamizhandownloads1012:lSuTz5AAYFM2WF9F@tamizhandownloads.2muchrx.mongodb.net/?retryWrites=true&w=majority&appName=Tamizhandownloads")
